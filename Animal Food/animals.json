@@ -1,0 +1,118 @@
+{
+  "animals": [
+    {
+      "name": "טיגריס",
+      "image": "tiger",
+      "food": "meat",
+      "localizedFood": "בשר"
+    },
+    {
+      "name": "סוס",
+      "image": "horse",
+      "food": "hay",
+      "localizedFood": "חציר"
+    },
+    {
+      "name": "דבורה",
+      "image": "bee",
+      "food": "nectar",
+      "localizedFood": "צוף"
+    },
+    {
+      "name": "פרפר",
+      "image": "butterfly",
+      "food": "nectar",
+      "localizedFood": "צוף"
+    },
+    {
+      "name": "צפרדע",
+      "image": "frog",
+      "food": "insects",
+      "localizedFood": "חרקים"
+    },
+    {
+      "name": "דוב פנדה",
+      "image": "panda",
+      "food": "bamboo",
+      "localizedFood": "במבוק"
+    },
+    {
+      "name": "סנאי",
+      "image": "squirrel",
+      "food": "nut",
+      "localizedFood": "אגוזים"
+    },
+    {
+      "name": "צב",
+      "image": "turtle",
+      "food": "leaves",
+      "localizedFood": "עלים"
+    },
+    {
+      "name": "לוטרה",
+      "image": "otter",
+      "food": "invertebrate",
+      "localizedFood": "חסרי חוליות"
+    },
+    {
+      "name": "לוויתן",
+      "image": "whale",
+      "food": "fish",
+      "localizedFood": "דגים"
+    },
+    {
+      "name": "אריה",
+      "image": "lion",
+      "food": "meat",
+      "localizedFood": "בשר"
+    },
+    {
+      "name": "קוף",
+      "image": "monkey",
+      "food": "bananas",
+      "localizedFood": "בננות"
+    },
+    {
+      "name": "ארנב",
+      "image": "rabbit",
+      "food": "carrot",
+      "localizedFood": "גזרים"
+    },
+    {
+      "name": "פרה",
+      "image": "cow",
+      "food": "grass",
+      "localizedFood": "דשא"
+    },
+    {
+      "name": "עז",
+      "image": "goat",
+      "food": "leaves",
+      "localizedFood": "עלים"
+    },
+    {
+      "name": "כלב",
+      "image": "dog",
+      "food": "bone",
+      "localizedFood": "עצמות"
+    },
+    {
+      "name": "תרנגולת",
+      "image": "chicken",
+      "food": "seeds",
+      "localizedFood": "זרעים"
+    },
+    {
+      "name": "חתול",
+      "image": "cat",
+      "food": "milk",
+      "localizedFood": "חלב"
+    },
+    {
+      "name": "דוב נמלים",
+      "image": "anteater",
+      "food": "ant",
+      "localizedFood": "נמלים"
+    }
+  ]
+}

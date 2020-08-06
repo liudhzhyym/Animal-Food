@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0499DF24DB185300D2E748 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0499DE24DB185300D2E748 /* animals.json */; };
+		8A0499E124DBD7F500D2E748 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0499E024DBD7F500D2E748 /* SoundManager.swift */; };
+		8AAF52A924D7DB7B00FBF23D /* PopupAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */; };
+		8AAF52AB24D7DB8600FBF23D /* PopupAnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */; };
+		8AAF52AE24D7F9EC00FBF23D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */; };
 		8AD9F3CE24D61DF60097D88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3CD24D61DF60097D88B /* AppDelegate.swift */; };
 		8AD9F3D024D61DF60097D88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3CF24D61DF60097D88B /* SceneDelegate.swift */; };
 		8AD9F3D224D61DF60097D88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3D124D61DF60097D88B /* ViewController.swift */; };
 		8AD9F3D524D61DF60097D88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9F3D324D61DF60097D88B /* Main.storyboard */; };
 		8AD9F3D724D61DF80097D88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9F3D624D61DF80097D88B /* Assets.xcassets */; };
 		8AD9F3DA24D61DF80097D88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD9F3D824D61DF80097D88B /* LaunchScreen.storyboard */; };
+		8AD9F3E224D68D200097D88B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3E124D68D200097D88B /* Color+Extension.swift */; };
+		8AD9F3E424D68E680097D88B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3E324D68E680097D88B /* RoundedButton.swift */; };
+		8AD9F3E824D6AD5B0097D88B /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3E724D6AD5B0097D88B /* Application.swift */; };
+		8AD9F3EA24D6B5240097D88B /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9F3E924D6B5240097D88B /* Animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0499DE24DB185300D2E748 /* animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		8A0499E024DBD7F500D2E748 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAnswerView.swift; sourceTree = "<group>"; };
+		8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupAnswerView.xib; sourceTree = "<group>"; };
+		8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		8AD9F3CA24D61DF60097D88B /* Animal Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9F3CD24D61DF60097D88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD9F3CF24D61DF60097D88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		8AD9F3D624D61DF80097D88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AD9F3D924D61DF80097D88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD9F3DB24D61DF80097D88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD9F3E124D68D200097D88B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8AD9F3E324D68E680097D88B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8AD9F3E724D6AD5B0097D88B /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		8AD9F3E924D6B5240097D88B /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +74,19 @@
 		8AD9F3CC24D61DF60097D88B /* Animal Food */ = {
 			isa = PBXGroup;
 			children = (
+				8AD9F3E724D6AD5B0097D88B /* Application.swift */,
+				8A0499DE24DB185300D2E748 /* animals.json */,
+				8AD9F3E924D6B5240097D88B /* Animals.swift */,
 				8AD9F3CD24D61DF60097D88B /* AppDelegate.swift */,
 				8AD9F3CF24D61DF60097D88B /* SceneDelegate.swift */,
 				8AD9F3D124D61DF60097D88B /* ViewController.swift */,
+				8AD9F3E124D68D200097D88B /* Color+Extension.swift */,
+				8AD9F3E324D68E680097D88B /* RoundedButton.swift */,
+				8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */,
+				8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */,
 				8AD9F3D324D61DF60097D88B /* Main.storyboard */,
+				8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */,
+				8A0499E024DBD7F500D2E748 /* SoundManager.swift */,
 				8AD9F3D624D61DF80097D88B /* Assets.xcassets */,
 				8AD9F3D824D61DF80097D88B /* LaunchScreen.storyboard */,
 				8AD9F3DB24D61DF80097D88B /* Info.plist */,
@@ -125,9 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0499DF24DB185300D2E748 /* animals.json in Resources */,
 				8AD9F3DA24D61DF80097D88B /* LaunchScreen.storyboard in Resources */,
 				8AD9F3D724D61DF80097D88B /* Assets.xcassets in Resources */,
 				8AD9F3D524D61DF60097D88B /* Main.storyboard in Resources */,
+				8AAF52AB24D7DB8600FBF23D /* PopupAnswerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD9F3E824D6AD5B0097D88B /* Application.swift in Sources */,
 				8AD9F3D224D61DF60097D88B /* ViewController.swift in Sources */,
+				8AD9F3E424D68E680097D88B /* RoundedButton.swift in Sources */,
 				8AD9F3CE24D61DF60097D88B /* AppDelegate.swift in Sources */,
+				8AAF52AE24D7F9EC00FBF23D /* AlertViewController.swift in Sources */,
 				8AD9F3D024D61DF60097D88B /* SceneDelegate.swift in Sources */,
+				8AD9F3E224D68D200097D88B /* Color+Extension.swift in Sources */,
+				8AD9F3EA24D6B5240097D88B /* Animals.swift in Sources */,
+				8AAF52A924D7DB7B00FBF23D /* PopupAnswerView.swift in Sources */,
+				8A0499E124DBD7F500D2E748 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = "Animal Food/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = "Animal Food/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,8 +11,24 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    
+    lazy var animals: [Animal] = {
+        if let fileURL = Bundle.main.url(forResource: "animals", withExtension: "json") {
+            do {
+                let jsonData = try Data(contentsOf: fileURL)
+                let datasource: Animals = try JSONDecoder().decode(Animals.self, from: jsonData)
+                return datasource.animals.shuffled()
+            } catch let error {
+                debugPrint(#function, error)
+            }
+        }
+        return []
+    }()
+    
+    class func sharedDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
