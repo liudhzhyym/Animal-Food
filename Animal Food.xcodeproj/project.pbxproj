@@ -30,7 +30,7 @@
 		8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAnswerView.swift; sourceTree = "<group>"; };
 		8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupAnswerView.xib; sourceTree = "<group>"; };
 		8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
-		8AD9F3CA24D61DF60097D88B /* Animal Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD9F3CA24D61DF60097D88B /* מה אני אוכל.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "מה אני אוכל.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD9F3CD24D61DF60097D88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD9F3CF24D61DF60097D88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8AD9F3D124D61DF60097D88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		8AD9F3CB24D61DF60097D88B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AD9F3CA24D61DF60097D88B /* Animal Food.app */,
+				8AD9F3CA24D61DF60097D88B /* מה אני אוכל.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			);
 			name = "Animal Food";
 			productName = "Animal Food";
-			productReference = 8AD9F3CA24D61DF60097D88B /* Animal Food.app */;
+			productReference = 8AD9F3CA24D61DF60097D88B /* מה אני אוכל.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Animal-Food";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "מה אני אוכל";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Animal-Food";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "מה אני אוכל";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
