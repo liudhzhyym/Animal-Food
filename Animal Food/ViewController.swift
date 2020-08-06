@@ -49,6 +49,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.overrideUserInterfaceStyle = .light
+        
         SoundManager.shared.speak(text: "מה אני אוכל?")
         
         let defaultImage = UIImage(systemName: "speaker.3", withConfiguration: UIImage.SymbolConfiguration(pointSize: 45, weight: .regular))
