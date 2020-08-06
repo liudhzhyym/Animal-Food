@@ -31,7 +31,7 @@
       "localizedFood": "חרקים"
     },
     {
-      "name": "דוב פנדה",
+      "name": "דב פנדה",
       "image": "panda",
       "food": "bamboo",
       "localizedFood": "במבוק"
@@ -109,7 +109,7 @@
       "localizedFood": "חלב"
     },
     {
-      "name": "דוב נמלים",
+      "name": "דב נמלים",
       "image": "anteater",
       "food": "ant",
       "localizedFood": "נמלים"
