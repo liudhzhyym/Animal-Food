@@ -9,6 +9,40 @@
 /* Begin PBXBuildFile section */
 		8A0499DF24DB185300D2E748 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A0499DE24DB185300D2E748 /* animals.json */; };
 		8A0499E124DBD7F500D2E748 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0499E024DBD7F500D2E748 /* SoundManager.swift */; };
+		8A39EB9724DEA2DF00F86F58 /* צב.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7524DEA2DF00F86F58 /* צב.mp3 */; };
+		8A39EB9824DEA2DF00F86F58 /* טיגריס.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7624DEA2DF00F86F58 /* טיגריס.mp3 */; };
+		8A39EB9924DEA2DF00F86F58 /* עצמות.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7724DEA2DF00F86F58 /* עצמות.mp3 */; };
+		8A39EB9A24DEA2DF00F86F58 /* ארנב.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7824DEA2DF00F86F58 /* ארנב.mp3 */; };
+		8A39EB9B24DEA2DF00F86F58 /* כלב.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7924DEA2DF00F86F58 /* כלב.mp3 */; };
+		8A39EB9C24DEA2DF00F86F58 /* חציר.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7A24DEA2DF00F86F58 /* חציר.mp3 */; };
+		8A39EB9D24DEA2DF00F86F58 /* דב נמלים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7B24DEA2DF00F86F58 /* דב נמלים.mp3 */; };
+		8A39EB9E24DEA2DF00F86F58 /* בננות.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7C24DEA2DF00F86F58 /* בננות.mp3 */; };
+		8A39EB9F24DEA2DF00F86F58 /* דב פנדה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7D24DEA2DF00F86F58 /* דב פנדה.mp3 */; };
+		8A39EBA024DEA2DF00F86F58 /* פרפר.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7E24DEA2DF00F86F58 /* פרפר.mp3 */; };
+		8A39EBA124DEA2DF00F86F58 /* במבוק.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB7F24DEA2DF00F86F58 /* במבוק.mp3 */; };
+		8A39EBA224DEA2DF00F86F58 /* קוף.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8024DEA2DF00F86F58 /* קוף.mp3 */; };
+		8A39EBA324DEA2DF00F86F58 /* דבורה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8124DEA2DF00F86F58 /* דבורה.mp3 */; };
+		8A39EBA424DEA2DF00F86F58 /* חרקים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8224DEA2DF00F86F58 /* חרקים.mp3 */; };
+		8A39EBA524DEA2DF00F86F58 /* עז.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8324DEA2DF00F86F58 /* עז.mp3 */; };
+		8A39EBA624DEA2DF00F86F58 /* סוס.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8424DEA2DF00F86F58 /* סוס.mp3 */; };
+		8A39EBA724DEA2DF00F86F58 /* לויתן.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8524DEA2DF00F86F58 /* לויתן.mp3 */; };
+		8A39EBA824DEA2DF00F86F58 /* בשר.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8624DEA2DF00F86F58 /* בשר.mp3 */; };
+		8A39EBA924DEA2DF00F86F58 /* זרעים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8724DEA2DF00F86F58 /* זרעים.mp3 */; };
+		8A39EBAA24DEA2DF00F86F58 /* חלב.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8824DEA2DF00F86F58 /* חלב.mp3 */; };
+		8A39EBAB24DEA2DF00F86F58 /* צפרדע.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8924DEA2DF00F86F58 /* צפרדע.mp3 */; };
+		8A39EBAC24DEA2DF00F86F58 /* חסרי חוליות.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8A24DEA2DF00F86F58 /* חסרי חוליות.mp3 */; };
+		8A39EBAD24DEA2DF00F86F58 /* תרנגול.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8B24DEA2DF00F86F58 /* תרנגול.mp3 */; };
+		8A39EBAE24DEA2DF00F86F58 /* דגים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8C24DEA2DF00F86F58 /* דגים.mp3 */; };
+		8A39EBAF24DEA2DF00F86F58 /* עשב.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8D24DEA2DF00F86F58 /* עשב.mp3 */; };
+		8A39EBB024DEA2DF00F86F58 /* צוף.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8E24DEA2DF00F86F58 /* צוף.mp3 */; };
+		8A39EBB124DEA2DF00F86F58 /* חתול.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB8F24DEA2DF00F86F58 /* חתול.mp3 */; };
+		8A39EBB224DEA2DF00F86F58 /* אריה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9024DEA2DF00F86F58 /* אריה.mp3 */; };
+		8A39EBB324DEA2DF00F86F58 /* פרה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9124DEA2DF00F86F58 /* פרה.mp3 */; };
+		8A39EBB424DEA2DF00F86F58 /* לוטרה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9224DEA2DF00F86F58 /* לוטרה.mp3 */; };
+		8A39EBB524DEA2DF00F86F58 /* גזרים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9324DEA2DF00F86F58 /* גזרים.mp3 */; };
+		8A39EBB624DEA2DF00F86F58 /* סנאי.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9424DEA2DF00F86F58 /* סנאי.mp3 */; };
+		8A39EBB724DEA2DF00F86F58 /* אגוזים.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9524DEA2DF00F86F58 /* אגוזים.mp3 */; };
+		8A39EBB824DEA2DF00F86F58 /* נמלה.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A39EB9624DEA2DF00F86F58 /* נמלה.mp3 */; };
 		8AAF52A924D7DB7B00FBF23D /* PopupAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */; };
 		8AAF52AB24D7DB8600FBF23D /* PopupAnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */; };
 		8AAF52AE24D7F9EC00FBF23D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */; };
@@ -27,6 +61,40 @@
 /* Begin PBXFileReference section */
 		8A0499DE24DB185300D2E748 /* animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		8A0499E024DBD7F500D2E748 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		8A39EB7524DEA2DF00F86F58 /* צב.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "צב.mp3"; sourceTree = "<group>"; };
+		8A39EB7624DEA2DF00F86F58 /* טיגריס.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "טיגריס.mp3"; sourceTree = "<group>"; };
+		8A39EB7724DEA2DF00F86F58 /* עצמות.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "עצמות.mp3"; sourceTree = "<group>"; };
+		8A39EB7824DEA2DF00F86F58 /* ארנב.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ארנב.mp3"; sourceTree = "<group>"; };
+		8A39EB7924DEA2DF00F86F58 /* כלב.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "כלב.mp3"; sourceTree = "<group>"; };
+		8A39EB7A24DEA2DF00F86F58 /* חציר.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "חציר.mp3"; sourceTree = "<group>"; };
+		8A39EB7B24DEA2DF00F86F58 /* דב נמלים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "דב נמלים.mp3"; sourceTree = "<group>"; };
+		8A39EB7C24DEA2DF00F86F58 /* בננות.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "בננות.mp3"; sourceTree = "<group>"; };
+		8A39EB7D24DEA2DF00F86F58 /* דב פנדה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "דב פנדה.mp3"; sourceTree = "<group>"; };
+		8A39EB7E24DEA2DF00F86F58 /* פרפר.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "פרפר.mp3"; sourceTree = "<group>"; };
+		8A39EB7F24DEA2DF00F86F58 /* במבוק.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "במבוק.mp3"; sourceTree = "<group>"; };
+		8A39EB8024DEA2DF00F86F58 /* קוף.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "קוף.mp3"; sourceTree = "<group>"; };
+		8A39EB8124DEA2DF00F86F58 /* דבורה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "דבורה.mp3"; sourceTree = "<group>"; };
+		8A39EB8224DEA2DF00F86F58 /* חרקים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "חרקים.mp3"; sourceTree = "<group>"; };
+		8A39EB8324DEA2DF00F86F58 /* עז.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "עז.mp3"; sourceTree = "<group>"; };
+		8A39EB8424DEA2DF00F86F58 /* סוס.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "סוס.mp3"; sourceTree = "<group>"; };
+		8A39EB8524DEA2DF00F86F58 /* לויתן.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "לויתן.mp3"; sourceTree = "<group>"; };
+		8A39EB8624DEA2DF00F86F58 /* בשר.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "בשר.mp3"; sourceTree = "<group>"; };
+		8A39EB8724DEA2DF00F86F58 /* זרעים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "זרעים.mp3"; sourceTree = "<group>"; };
+		8A39EB8824DEA2DF00F86F58 /* חלב.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "חלב.mp3"; sourceTree = "<group>"; };
+		8A39EB8924DEA2DF00F86F58 /* צפרדע.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "צפרדע.mp3"; sourceTree = "<group>"; };
+		8A39EB8A24DEA2DF00F86F58 /* חסרי חוליות.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "חסרי חוליות.mp3"; sourceTree = "<group>"; };
+		8A39EB8B24DEA2DF00F86F58 /* תרנגול.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "תרנגול.mp3"; sourceTree = "<group>"; };
+		8A39EB8C24DEA2DF00F86F58 /* דגים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "דגים.mp3"; sourceTree = "<group>"; };
+		8A39EB8D24DEA2DF00F86F58 /* עשב.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "עשב.mp3"; sourceTree = "<group>"; };
+		8A39EB8E24DEA2DF00F86F58 /* צוף.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "צוף.mp3"; sourceTree = "<group>"; };
+		8A39EB8F24DEA2DF00F86F58 /* חתול.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "חתול.mp3"; sourceTree = "<group>"; };
+		8A39EB9024DEA2DF00F86F58 /* אריה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "אריה.mp3"; sourceTree = "<group>"; };
+		8A39EB9124DEA2DF00F86F58 /* פרה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "פרה.mp3"; sourceTree = "<group>"; };
+		8A39EB9224DEA2DF00F86F58 /* לוטרה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "לוטרה.mp3"; sourceTree = "<group>"; };
+		8A39EB9324DEA2DF00F86F58 /* גזרים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "גזרים.mp3"; sourceTree = "<group>"; };
+		8A39EB9424DEA2DF00F86F58 /* סנאי.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "סנאי.mp3"; sourceTree = "<group>"; };
+		8A39EB9524DEA2DF00F86F58 /* אגוזים.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "אגוזים.mp3"; sourceTree = "<group>"; };
+		8A39EB9624DEA2DF00F86F58 /* נמלה.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "נמלה.mp3"; sourceTree = "<group>"; };
 		8AAF52A824D7DB7B00FBF23D /* PopupAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAnswerView.swift; sourceTree = "<group>"; };
 		8AAF52AA24D7DB8600FBF23D /* PopupAnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupAnswerView.xib; sourceTree = "<group>"; };
 		8AAF52AC24D7F9EC00FBF23D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +123,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A39EB7424DEA2DF00F86F58 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8A39EB7524DEA2DF00F86F58 /* צב.mp3 */,
+				8A39EB7624DEA2DF00F86F58 /* טיגריס.mp3 */,
+				8A39EB7724DEA2DF00F86F58 /* עצמות.mp3 */,
+				8A39EB7824DEA2DF00F86F58 /* ארנב.mp3 */,
+				8A39EB7924DEA2DF00F86F58 /* כלב.mp3 */,
+				8A39EB7A24DEA2DF00F86F58 /* חציר.mp3 */,
+				8A39EB7B24DEA2DF00F86F58 /* דב נמלים.mp3 */,
+				8A39EB7C24DEA2DF00F86F58 /* בננות.mp3 */,
+				8A39EB7D24DEA2DF00F86F58 /* דב פנדה.mp3 */,
+				8A39EB7E24DEA2DF00F86F58 /* פרפר.mp3 */,
+				8A39EB7F24DEA2DF00F86F58 /* במבוק.mp3 */,
+				8A39EB8024DEA2DF00F86F58 /* קוף.mp3 */,
+				8A39EB8124DEA2DF00F86F58 /* דבורה.mp3 */,
+				8A39EB8224DEA2DF00F86F58 /* חרקים.mp3 */,
+				8A39EB8324DEA2DF00F86F58 /* עז.mp3 */,
+				8A39EB8424DEA2DF00F86F58 /* סוס.mp3 */,
+				8A39EB8524DEA2DF00F86F58 /* לויתן.mp3 */,
+				8A39EB8624DEA2DF00F86F58 /* בשר.mp3 */,
+				8A39EB8724DEA2DF00F86F58 /* זרעים.mp3 */,
+				8A39EB8824DEA2DF00F86F58 /* חלב.mp3 */,
+				8A39EB8924DEA2DF00F86F58 /* צפרדע.mp3 */,
+				8A39EB8A24DEA2DF00F86F58 /* חסרי חוליות.mp3 */,
+				8A39EB8B24DEA2DF00F86F58 /* תרנגול.mp3 */,
+				8A39EB8C24DEA2DF00F86F58 /* דגים.mp3 */,
+				8A39EB8D24DEA2DF00F86F58 /* עשב.mp3 */,
+				8A39EB8E24DEA2DF00F86F58 /* צוף.mp3 */,
+				8A39EB8F24DEA2DF00F86F58 /* חתול.mp3 */,
+				8A39EB9024DEA2DF00F86F58 /* אריה.mp3 */,
+				8A39EB9124DEA2DF00F86F58 /* פרה.mp3 */,
+				8A39EB9224DEA2DF00F86F58 /* לוטרה.mp3 */,
+				8A39EB9324DEA2DF00F86F58 /* גזרים.mp3 */,
+				8A39EB9424DEA2DF00F86F58 /* סנאי.mp3 */,
+				8A39EB9524DEA2DF00F86F58 /* אגוזים.mp3 */,
+				8A39EB9624DEA2DF00F86F58 /* נמלה.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		8AD9F3C124D61DF60097D88B = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +199,7 @@
 				8AD9F3D624D61DF80097D88B /* Assets.xcassets */,
 				8AD9F3D824D61DF80097D88B /* LaunchScreen.storyboard */,
 				8AD9F3DB24D61DF80097D88B /* Info.plist */,
+				8A39EB7424DEA2DF00F86F58 /* Sounds */,
 			);
 			path = "Animal Food";
 			sourceTree = "<group>";
@@ -152,11 +262,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A39EBA524DEA2DF00F86F58 /* עז.mp3 in Resources */,
+				8A39EBAE24DEA2DF00F86F58 /* דגים.mp3 in Resources */,
 				8A0499DF24DB185300D2E748 /* animals.json in Resources */,
+				8A39EBAB24DEA2DF00F86F58 /* צפרדע.mp3 in Resources */,
+				8A39EBAA24DEA2DF00F86F58 /* חלב.mp3 in Resources */,
+				8A39EBA224DEA2DF00F86F58 /* קוף.mp3 in Resources */,
+				8A39EBAD24DEA2DF00F86F58 /* תרנגול.mp3 in Resources */,
+				8A39EBA424DEA2DF00F86F58 /* חרקים.mp3 in Resources */,
+				8A39EB9C24DEA2DF00F86F58 /* חציר.mp3 in Resources */,
+				8A39EBA924DEA2DF00F86F58 /* זרעים.mp3 in Resources */,
+				8A39EB9D24DEA2DF00F86F58 /* דב נמלים.mp3 in Resources */,
+				8A39EBA724DEA2DF00F86F58 /* לויתן.mp3 in Resources */,
+				8A39EBA124DEA2DF00F86F58 /* במבוק.mp3 in Resources */,
+				8A39EB9B24DEA2DF00F86F58 /* כלב.mp3 in Resources */,
+				8A39EBA324DEA2DF00F86F58 /* דבורה.mp3 in Resources */,
+				8A39EBB824DEA2DF00F86F58 /* נמלה.mp3 in Resources */,
+				8A39EB9E24DEA2DF00F86F58 /* בננות.mp3 in Resources */,
+				8A39EBAC24DEA2DF00F86F58 /* חסרי חוליות.mp3 in Resources */,
+				8A39EBB524DEA2DF00F86F58 /* גזרים.mp3 in Resources */,
+				8A39EBB624DEA2DF00F86F58 /* סנאי.mp3 in Resources */,
 				8AD9F3DA24D61DF80097D88B /* LaunchScreen.storyboard in Resources */,
+				8A39EBB224DEA2DF00F86F58 /* אריה.mp3 in Resources */,
+				8A39EB9F24DEA2DF00F86F58 /* דב פנדה.mp3 in Resources */,
 				8AD9F3D724D61DF80097D88B /* Assets.xcassets in Resources */,
+				8A39EB9724DEA2DF00F86F58 /* צב.mp3 in Resources */,
+				8A39EBA024DEA2DF00F86F58 /* פרפר.mp3 in Resources */,
+				8A39EBA624DEA2DF00F86F58 /* סוס.mp3 in Resources */,
+				8A39EB9924DEA2DF00F86F58 /* עצמות.mp3 in Resources */,
+				8A39EBB724DEA2DF00F86F58 /* אגוזים.mp3 in Resources */,
+				8A39EBB124DEA2DF00F86F58 /* חתול.mp3 in Resources */,
 				8AD9F3D524D61DF60097D88B /* Main.storyboard in Resources */,
+				8A39EBB324DEA2DF00F86F58 /* פרה.mp3 in Resources */,
+				8A39EBB024DEA2DF00F86F58 /* צוף.mp3 in Resources */,
+				8A39EBB424DEA2DF00F86F58 /* לוטרה.mp3 in Resources */,
+				8A39EB9A24DEA2DF00F86F58 /* ארנב.mp3 in Resources */,
+				8A39EBA824DEA2DF00F86F58 /* בשר.mp3 in Resources */,
+				8A39EBAF24DEA2DF00F86F58 /* עשב.mp3 in Resources */,
 				8AAF52AB24D7DB8600FBF23D /* PopupAnswerView.xib in Resources */,
+				8A39EB9824DEA2DF00F86F58 /* טיגריס.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = "Animal Food/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -329,10 +473,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Animal-Food";
 				PRODUCT_NAME = "מה אני אוכל";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -341,7 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = "Animal Food/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -349,10 +494,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Animal-Food";
 				PRODUCT_NAME = "מה אני אוכל";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

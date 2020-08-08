@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="eq8-Jh-zO0">
             <objects>
-                <viewController interfaceStyle="light" id="yur-lE-egi" customClass="ViewController" customModule="Animal_Food" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController interfaceStyle="light" id="yur-lE-egi" customClass="ViewController" customModule="מה_אני_אוכל" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JSI-74-XUA">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,28 +91,28 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YLt-mz-LnI">
                                 <rect key="frame" x="64" y="283" width="768" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYT-TT-ufV" customClass="RoundedButton" customModule="Animal_Food" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYT-TT-ufV" customClass="RoundedButton" customModule="מה_אני_אוכל" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="188.5" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="onPressAnswer1:" destination="yur-lE-egi" eventType="touchUpInside" id="uc3-zI-I8h"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcF-3e-SEk" customClass="RoundedButton" customModule="Animal_Food" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcF-3e-SEk" customClass="RoundedButton" customModule="מה_אני_אוכל" customModuleProvider="target">
                                         <rect key="frame" x="193.5" y="0.0" width="188" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="onPressAnswer2:" destination="yur-lE-egi" eventType="touchUpInside" id="X5T-II-nIl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eJ-9x-XkR" customClass="RoundedButton" customModule="Animal_Food" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eJ-9x-XkR" customClass="RoundedButton" customModule="מה_אני_אוכל" customModuleProvider="target">
                                         <rect key="frame" x="386.5" y="0.0" width="188.5" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="onPressAnswer3:" destination="yur-lE-egi" eventType="touchUpInside" id="Gfc-3F-aYH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArD-oy-K6d" customClass="RoundedButton" customModule="Animal_Food" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArD-oy-K6d" customClass="RoundedButton" customModule="מה_אני_אוכל" customModuleProvider="target">
                                         <rect key="frame" x="580" y="0.0" width="188" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
@@ -183,8 +183,10 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="animalHeightConstraint" destination="mbW-zS-1df" id="gRj-3I-HUa"/>
                         <outlet property="animalName" destination="aUd-Gb-IIW" id="aTX-aZ-Eev"/>
                         <outlet property="animalSpeakerButton" destination="fnG-1I-ker" id="px1-WU-4oa"/>
+                        <outlet property="animalWidthConstraint" destination="AND-Tn-15U" id="lJS-c3-GYc"/>
                         <outlet property="answerButton1" destination="GYT-TT-ufV" id="4e0-e5-zHM"/>
                         <outlet property="answerButton2" destination="dcF-3e-SEk" id="cHh-EJ-vde"/>
                         <outlet property="answerButton3" destination="5eJ-9x-XkR" id="gso-N9-zAg"/>
@@ -193,6 +195,8 @@
                         <outlet property="answerLabel2" destination="9L2-GF-nR8" id="KIF-Y5-wnP"/>
                         <outlet property="answerLabel3" destination="3Y5-En-32f" id="Wcp-b8-axY"/>
                         <outlet property="answerLabel4" destination="eD1-mO-d6K" id="ira-H1-tYx"/>
+                        <outlet property="answersImagesStackViewConstraint" destination="iuX-3x-WP3" id="wum-Ty-0xg"/>
+                        <outlet property="answersLabelStackViewConstraint" destination="Q6d-gG-V7v" id="xVH-xT-rIP"/>
                         <outlet property="imageView" destination="wWw-Yb-087" id="J7f-gB-h7x"/>
                         <outlet property="nextButton" destination="flr-GB-szv" id="e2l-7d-AN2"/>
                         <outlet property="previousButton" destination="uPB-Nh-1l9" id="P6U-fI-UzD"/>

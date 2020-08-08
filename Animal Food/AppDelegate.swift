@@ -13,7 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     lazy var animals: [Animal] = {
-        if let fileURL = Bundle.main.url(forResource: "animals", withExtension: "json") {
+        if let fileURL = Bundle.main.url(forResource: Application.FileResources.fileName,
+                                         withExtension: Application.FileResources.fileExtension) {
             do {
                 let jsonData = try Data(contentsOf: fileURL)
                 let datasource: Animals = try JSONDecoder().decode(Animals.self, from: jsonData)
@@ -25,12 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return []
     }()
     
+    
     class func sharedDelegate() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch.        
         return true
     }
 
