@@ -26,8 +26,8 @@ class SoundManager: NSObject {
         synthesizer.speak(utterance)
     }
     
-    func play(soundName: String) {
-        guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else { return }
+    func play(soundName: String) -> Bool {
+        guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else { return false }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -39,12 +39,13 @@ class SoundManager: NSObject {
             /* iOS 10 and earlier require the following line:
             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
 
-            guard let player = self.player else { return }
+            guard let player = self.player else { return false }
 
             player.play()
-
+            return true
         } catch let error {
             print(error.localizedDescription)
+            return false
         }
     }
     

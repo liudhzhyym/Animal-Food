@@ -98,8 +98,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onPressAnimalSpeaker(_ sender: Any) {
-        SoundManager.shared.play(soundName: self.currentAnimal.name)
-        // self.speak(text: self.currentAnimal.name)
+        if !SoundManager.shared.play(soundName: self.currentAnimal.name) {
+            self.speak(text: self.currentAnimal.name)
+        }
     }
     
     @IBAction func onPressNext(_ sender: Any) {
@@ -118,7 +119,9 @@ class ViewController: UIViewController {
         // self.speak(text: self.answerLabel1.text ?? "")
         
         if let answer: String = self.answerLabel1.text {
-            SoundManager.shared.play(soundName: answer)
+            if !SoundManager.shared.play(soundName: answer) {
+                self.speak(text: answer)
+            }
         }
         
         self.answerButton1.isSelected = (self.answers[0] == self.currentAnimal.food)
@@ -129,7 +132,9 @@ class ViewController: UIViewController {
         // self.speak(text: self.answerLabel2.text ?? "")
         
         if let answer: String = self.answerLabel2.text {
-            SoundManager.shared.play(soundName: answer)
+            if !SoundManager.shared.play(soundName: answer) {
+                self.speak(text: answer)
+            }
         }
         
         self.answerButton2.isSelected = (self.answers[1] == self.currentAnimal.food)
@@ -140,7 +145,9 @@ class ViewController: UIViewController {
         // self.speak(text: self.answerLabel3.text ?? "")
         
         if let answer: String = self.answerLabel3.text {
-            SoundManager.shared.play(soundName: answer)
+            if !SoundManager.shared.play(soundName: answer) {
+                self.speak(text: answer)
+            }
         }
         
         self.answerButton3.isSelected = (self.answers[2] == self.currentAnimal.food)
@@ -151,7 +158,9 @@ class ViewController: UIViewController {
         // self.speak(text: self.answerLabel4.text ?? "")
         
         if let answer: String = self.answerLabel4.text {
-            SoundManager.shared.play(soundName: answer)
+            if !SoundManager.shared.play(soundName: answer) {
+                self.speak(text: answer)
+            }
         }
         
         self.answerButton4.isSelected = (self.answers[3] == self.currentAnimal.food)
