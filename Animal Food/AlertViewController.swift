@@ -29,7 +29,7 @@ class AlertViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) { [weak self] in
             guard let weakSelf = self else { return }
             weakSelf.dismiss(animated: true, completion: nil)
         }

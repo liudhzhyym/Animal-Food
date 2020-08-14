@@ -13,7 +13,7 @@ class SoundManager: NSObject {
     
     static let shared = SoundManager()
     
-    var languageCode: String = "he-IL"
+    var languageCode: String = "en-US"
     
     private var player: AVAudioPlayer?
     
@@ -24,29 +24,6 @@ class SoundManager: NSObject {
 
         let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)
-    }
-    
-    func play(soundName: String) -> Bool {
-        guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else { return false }
-
-        do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-            try AVAudioSession.sharedInstance().setActive(true)
-
-            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
-            self.player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-
-            /* iOS 10 and earlier require the following line:
-            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
-
-            guard let player = self.player else { return false }
-
-            player.play()
-            return true
-        } catch let error {
-            print(error.localizedDescription)
-            return false
-        }
     }
     
 }

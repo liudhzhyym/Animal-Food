@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         
         self.view.overrideUserInterfaceStyle = .light
                 
-        SoundManager.shared.speak(text: "מה אני אוכל?")
+        SoundManager.shared.speak(text: "What do I eat?")
         
         let defaultImage = UIImage(systemName: "speaker.3", withConfiguration: UIImage.SymbolConfiguration(pointSize: Application.Configurations.speakerPointSize, weight: .regular))
         
@@ -98,9 +98,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onPressAnimalSpeaker(_ sender: Any) {
-        if !SoundManager.shared.play(soundName: self.currentAnimal.name) {
-            self.speak(text: self.currentAnimal.name)
-        }
+        self.speak(text: self.currentAnimal.name)
     }
     
     @IBAction func onPressNext(_ sender: Any) {
@@ -116,53 +114,25 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onPressAnswer1(_ sender: Any) {
-        // self.speak(text: self.answerLabel1.text ?? "")
-        
-        if let answer: String = self.answerLabel1.text {
-            if !SoundManager.shared.play(soundName: answer) {
-                self.speak(text: answer)
-            }
-        }
-        
+        self.speak(text: self.answerLabel1.text ?? "")
         self.answerButton1.isSelected = (self.answers[0] == self.currentAnimal.food)
         self.onUserDidAnswer(isCorrectAnswer: self.answerButton1.isSelected, sender: sender)
     }
     
     @IBAction func onPressAnswer2(_ sender: Any) {
-        // self.speak(text: self.answerLabel2.text ?? "")
-        
-        if let answer: String = self.answerLabel2.text {
-            if !SoundManager.shared.play(soundName: answer) {
-                self.speak(text: answer)
-            }
-        }
-        
+        self.speak(text: self.answerLabel2.text ?? "")
         self.answerButton2.isSelected = (self.answers[1] == self.currentAnimal.food)
         self.onUserDidAnswer(isCorrectAnswer: self.answerButton2.isSelected, sender: sender)
     }
     
     @IBAction func onPressAnswer3(_ sender: Any) {
-        // self.speak(text: self.answerLabel3.text ?? "")
-        
-        if let answer: String = self.answerLabel3.text {
-            if !SoundManager.shared.play(soundName: answer) {
-                self.speak(text: answer)
-            }
-        }
-        
+        self.speak(text: self.answerLabel3.text ?? "")
         self.answerButton3.isSelected = (self.answers[2] == self.currentAnimal.food)
         self.onUserDidAnswer(isCorrectAnswer: self.answerButton3.isSelected, sender: sender)
     }
     
     @IBAction func onPressAnswer4(_ sender: Any) {
-        // self.speak(text: self.answerLabel4.text ?? "")
-        
-        if let answer: String = self.answerLabel4.text {
-            if !SoundManager.shared.play(soundName: answer) {
-                self.speak(text: answer)
-            }
-        }
-        
+        self.speak(text: self.answerLabel4.text ?? "")
         self.answerButton4.isSelected = (self.answers[3] == self.currentAnimal.food)
         self.onUserDidAnswer(isCorrectAnswer: self.answerButton4.isSelected, sender: sender)
     }

@@ -1,118 +1,118 @@
 {
   "animals": [
     {
-      "name": "טיגריס",
+      "name": "Tiger",
       "image": "tiger",
       "food": "meat",
-      "localizedFood": "בשר"
+      "localizedFood": "Meat"
     },
     {
-      "name": "סוס",
+      "name": "Horse",
       "image": "horse",
       "food": "hay",
-      "localizedFood": "חציר"
+      "localizedFood": "Hay"
     },
     {
-      "name": "דבורה",
+      "name": "Bee",
       "image": "bee",
       "food": "nectar",
-      "localizedFood": "צוף"
+      "localizedFood": "Nectar"
     },
     {
-      "name": "פרפר",
+      "name": "Butterfly",
       "image": "butterfly",
       "food": "nectar",
-      "localizedFood": "צוף"
+      "localizedFood": "Nectar"
     },
     {
-      "name": "צפרדע",
+      "name": "Frog",
       "image": "frog",
       "food": "insects",
-      "localizedFood": "חרקים"
+      "localizedFood": "Insects"
     },
     {
-      "name": "דב פנדה",
+      "name": "Panda",
       "image": "panda",
       "food": "bamboo",
-      "localizedFood": "במבוק"
+      "localizedFood": "Bamboo"
     },
     {
-      "name": "סנאי",
+      "name": "Squirrel",
       "image": "squirrel",
       "food": "nut",
-      "localizedFood": "אגוזים"
+      "localizedFood": "Nut"
     },
     {
-      "name": "צב",
+      "name": "Turtle",
       "image": "turtle",
       "food": "leaves",
-      "localizedFood": "עלים"
+      "localizedFood": "Leaves"
     },
     {
-      "name": "לוטרה",
+      "name": "Otter",
       "image": "otter",
       "food": "invertebrate",
-      "localizedFood": "חסרי חוליות"
+      "localizedFood": "Invertebrate"
     },
     {
-      "name": "לוויתן",
+      "name": "Whale",
       "image": "whale",
       "food": "fish",
-      "localizedFood": "דגים"
+      "localizedFood": "Fish"
     },
     {
-      "name": "אריה",
+      "name": "Lion",
       "image": "lion",
       "food": "meat",
-      "localizedFood": "בשר"
+      "localizedFood": "Meat"
     },
     {
-      "name": "קוף",
+      "name": "Gorilla",
       "image": "monkey",
       "food": "bananas",
-      "localizedFood": "בננות"
+      "localizedFood": "Bananas"
     },
     {
-      "name": "ארנב",
+      "name": "Rabbit",
       "image": "rabbit",
       "food": "carrot",
-      "localizedFood": "גזרים"
+      "localizedFood": "Carrot"
     },
     {
-      "name": "פרה",
+      "name": "Cow",
       "image": "cow",
       "food": "grass",
-      "localizedFood": "דשא"
+      "localizedFood": "Grass"
     },
     {
-      "name": "עז",
+      "name": "Goat",
       "image": "goat",
       "food": "leaves",
-      "localizedFood": "עלים"
+      "localizedFood": "Leaves"
     },
     {
-      "name": "כלב",
+      "name": "Dog",
       "image": "dog",
       "food": "bone",
-      "localizedFood": "עצמות"
+      "localizedFood": "Bone"
     },
     {
-      "name": "תרנגול",
+      "name": "Chicken",
       "image": "chicken",
       "food": "seeds",
-      "localizedFood": "זרעים"
+      "localizedFood": "Seeds"
     },
     {
-      "name": "חתול",
+      "name": "Cat",
       "image": "cat",
       "food": "milk",
-      "localizedFood": "חלב"
+      "localizedFood": "Milk"
     },
     {
-      "name": "דב נמלים",
+      "name": "Anteater",
       "image": "anteater",
       "food": "ant",
-      "localizedFood": "נמלים"
+      "localizedFood": "Ant"
     }
   ]
 }

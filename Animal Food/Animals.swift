@@ -52,42 +52,7 @@ enum FoodTypeEnum: String, Codable, CaseIterable {
     static let values: [FoodTypeEnum] = FoodTypeEnum.allCases
     
     var localized: String {
-        switch self {
-        case .milk:
-            return "חלב"
-        case .nectar:
-            return "צוף"
-        case .leaves:
-            return "עלים"
-        case .bamboo:
-            return "במבוק"
-        case .nut:
-            return "אגוזים"
-        case .fish:
-            return "דגים"
-        case .insects:
-            return "חרקים"
-        case .invertebrate:
-            return "חסרי חוליות"
-        case .meat:
-            return "בשר"
-        case .ant:
-            return "נמלה"
-        case .hay:
-            return "חציר"
-        case .bananas:
-            return "בננות"
-        case .carrot:
-            return "גזרים"
-        case .grass:
-            return "עשב"
-        case .bone:
-            return "עצמות"
-        case .seeds:
-            return "זרעים"
-        case .worm:
-            return "תולעים"
-        }
+        return self.rawValue.capitalized
     }
     
 }
