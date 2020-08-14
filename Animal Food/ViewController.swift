@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController {
     
@@ -50,12 +51,16 @@ class ViewController: UIViewController {
     private var answers: [FoodTypeEnum] = []
     private var answersDictionary: [String: Bool] = [:]
     
+    var interstitial: GADInterstitial!
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .landscape
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        interstitial = createAndLoadInterstitial()
         
         self.view.overrideUserInterfaceStyle = .light
                 
@@ -147,12 +152,20 @@ class ViewController: UIViewController {
         self.currentIndex += 1
         self.currentAnimal = AppDelegate.sharedDelegate().animals[self.currentIndex]
         self.imageView.image = UIImage(named: self.currentAnimal.image)
+        
+        if Int.random(in: 1...2) == 1 {
+            self.showAd()
+        }
     }
     
     private func showPreviousQuestion() {
         self.currentIndex -= 1
         self.currentAnimal = AppDelegate.sharedDelegate().animals[self.currentIndex]
         self.imageView.image = UIImage(named: self.currentAnimal.image)
+        
+        if Int.random(in: 1...2) == 1 {
+            self.showAd()
+        }
     }
     
     private func showPossibleAnswers(for animal: Animal) {
@@ -226,10 +239,62 @@ class ViewController: UIViewController {
         }
     }
     
+    private func createAndLoadInterstitial() -> GADInterstitial {
+        let interstitial = GADInterstitial(adUnitID: Application.shared.adUnitID)
+        interstitial.delegate = self
+        interstitial.load(GADRequest())
+        return interstitial
+    }
+    
+    private func showAd() {
+        if interstitial.isReady {
+          interstitial.present(fromRootViewController: self)
+        } else {
+          print("Ad wasn't ready")
+        }
+    }
+    
 }
 
 fileprivate extension Sequence where Element: Hashable {
     func unique() -> [Element] {
         NSOrderedSet(array: self as! [Any]).array as! [Element]
     }
+}
+
+extension ViewController: GADInterstitialDelegate {
+    
+    /// Tells the delegate an ad request succeeded.
+    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+      print("interstitialDidReceiveAd")
+    }
+
+    /// Tells the delegate an ad request failed.
+    func interstitial(_ ad: GADInterstitial, didFailToReceiveAdWithError error: GADRequestError) {
+      print("interstitial:didFailToReceiveAdWithError: \(error.localizedDescription)")
+    }
+
+    /// Tells the delegate that an interstitial will be presented.
+    func interstitialWillPresentScreen(_ ad: GADInterstitial) {
+      print("interstitialWillPresentScreen")
+    }
+
+    /// Tells the delegate the interstitial is to be animated off the screen.
+    func interstitialWillDismissScreen(_ ad: GADInterstitial) {
+      print("interstitialWillDismissScreen")
+    }
+
+    /// Tells the delegate the interstitial had been animated off the screen.
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+      print("interstitialDidDismissScreen")
+        
+        interstitial = createAndLoadInterstitial()
+    }
+
+    /// Tells the delegate that a user click will open another app
+    /// (such as the App Store), backgrounding the current app.
+    func interstitialWillLeaveApplication(_ ad: GADInterstitial) {
+      print("interstitialWillLeaveApplication")
+    }
+    
 }

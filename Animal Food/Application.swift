@@ -23,6 +23,8 @@ class Application: NSObject {
     
     let isIPAD: Bool = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad
     
+    let adUnitID: String = "ca-app-pub-6158225633661411/8662259003"
+    
     enum FileResources {
         static let fileName: String = "animals"
         static let fileExtension: String = "json"
